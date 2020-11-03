@@ -9,13 +9,11 @@
 CREATE TABLE TextBite (
     TextBiteId     BIGINT IDENTITY(1,1) NOT NULL,
     MaterialId     BIGINT NULL,
-    BookId         BIGINT NULL,
-    MaterialId1    BIGINT NULL,
-    WebpageId      BIGINT NULL,
-CONSTRAINT pk_TextBite PRIMARY KEY CLUSTERED (TextBiteId),
-CONSTRAINT fk_TextBite FOREIGN KEY (MaterialId,BookId)
-    REFERENCES Book (MaterialId,BookId)
+[MaterialId1] BIGINT NULL, 
+    CONSTRAINT pk_TextBite PRIMARY KEY CLUSTERED (TextBiteId),
+CONSTRAINT fk_TextBite FOREIGN KEY (MaterialId)
+    REFERENCES Book (MaterialId)
     ON UPDATE CASCADE,
-CONSTRAINT fk_TextBite2 FOREIGN KEY (MaterialId1,WebpageId)
-    REFERENCES Webpage (MaterialId,WebpageId)
+CONSTRAINT fk_TextBite2 FOREIGN KEY (MaterialId1)
+    REFERENCES Webpage (MaterialId)
     ON UPDATE CASCADE)
