@@ -12,6 +12,7 @@ https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=vs
 //Set Startup Project in VS2019
 PM> Scaffold-DbContext 'Data Source=(localdb)\E20I4DAB;Initial Catalog=EFCore.Migrations; Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False' Microsoft.EntityFrameworkCore.SqlServer -OutputDir 'Models' -ContextDir 'Data'
 //Using parameter for setting dicectories for models and data (context)
+
 PM>  Scaffold-DbContext 'Data Source=(localdb)\E20I4DAB;Initial Catalog=TernaryTester; Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False' Microsoft.EntityFrameworkCore.SqlServer -OutputDir 'Models' -ContextDir 'Data'
 PM> Scaffold-DbContext 'Data Source=(localdb)\E20I4DAB;Initial Catalog=EFCore.Migrations; Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False' Microsoft.EntityFrameworkCore.SqlServer [-OutputDir <String>] [-ContextDir <String>]
 //Scaffold-DbContext 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Chinook' Microsoft.EntityFrameworkCore.SqlServer

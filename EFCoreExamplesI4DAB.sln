@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCoreScaffold", "EfCoreSca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreScaffoldAdv", "EFCoreScaffoldAdv\EFCoreScaffoldAdv.csproj", "{E4EB5FFD-D99E-4FCC-981D-09957C9547D2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreL7.2Exc", "EFCoreL7.2Exc\EFCoreL7.2Exc.csproj", "{329D6F95-A344-47BA-8071-9D03F5E3A063}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StudyNoteAppDB", "StudyNoteAppDB\StudyNoteAppDB.sqlproj", "{04C6332C-39A0-485C-B64E-03BECA6B7574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,16 @@ Global
 		{E4EB5FFD-D99E-4FCC-981D-09957C9547D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4EB5FFD-D99E-4FCC-981D-09957C9547D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4EB5FFD-D99E-4FCC-981D-09957C9547D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329D6F95-A344-47BA-8071-9D03F5E3A063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329D6F95-A344-47BA-8071-9D03F5E3A063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329D6F95-A344-47BA-8071-9D03F5E3A063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329D6F95-A344-47BA-8071-9D03F5E3A063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C6332C-39A0-485C-B64E-03BECA6B7574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C6332C-39A0-485C-B64E-03BECA6B7574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C6332C-39A0-485C-B64E-03BECA6B7574}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04C6332C-39A0-485C-B64E-03BECA6B7574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C6332C-39A0-485C-B64E-03BECA6B7574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C6332C-39A0-485C-B64E-03BECA6B7574}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
